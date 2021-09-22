@@ -11,7 +11,6 @@ public class Lento {
 		String lento = lukija.nextLine();
 		
 		String lennonEtuliite = lento.substring(0,2);
-		System.out.println(lennonEtuliite);
 		if(lennonEtuliite.equalsIgnoreCase("AY")) {
 			char lennonNumeroString = lento.charAt(2);
 			// LENNONNUMEROSTRING PITÄÄ NS. VÄKISIN MUUTTAA STRINGIKSI
